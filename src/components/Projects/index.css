@@ -1,0 +1,110 @@
+.projects-container {
+  background-size: cover;
+  background-color: #f1f5f9;
+}
+.responsive-container {
+  height: 100%;
+  width: 100%;
+  padding: 50px;
+}
+.select-container {
+  height: 35px;
+  width: 40%;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  border: 1px solid #475569;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+@media all and (max-width: 768px) {
+  .select-container {
+    width: 100%;
+  }
+}
+.option-style {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #475569;
+}
+.projects-list-container {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: 0px;
+}
+@media all and (max-width: 768px) {
+  .projects-list-container {
+    justify-content: center;
+    margin: 20px;
+  }
+}
+.project-item {
+  height: 250px;
+  width: 250px;
+  border-radius: 8px;
+  margin-left: 4px;
+  margin-right: 4px;
+  margin-bottom: 4px;
+  padding: 5px;
+  box-shadow: 0px 4px 16px 0px #e2e8f0;
+  margin: 10px;
+}
+@media all and (max-width: 768px) {
+  .project-item {
+    width: 200px;
+    height: 250px;
+  }
+}
+.project-pic {
+  height: 70%;
+  width: 100%;
+  border-radius: 8px 8px 0px 0px;
+}
+.name {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  color: #475569;
+  text-align: center;
+}
+.failure-view-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.failure-image {
+  height: 200px;
+  width: 300px;
+}
+.failure-heading {
+  font-family: 'Roboto';
+  font-size: 24px;
+  color: #475569;
+}
+.failure-description {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #475569;
+}
+.retry-button {
+  height: 30px;
+  width: 60px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #328af2;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.loader {
+  min-height: 250px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}

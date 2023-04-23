@@ -1,0 +1,12 @@
+.header-container {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #cbd5e1;
+  padding-left: 50px;
+}
+.website-logo {
+  height: 30px;
+  width: 100px;
+}
